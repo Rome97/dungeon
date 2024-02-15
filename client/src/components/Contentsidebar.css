@@ -1,0 +1,18 @@
+.sidebar-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .sidebar-item {
+    @apply hover:bg-gray-700 hover:text-gray-200 p-2 cursor-pointer flex items-center rounded-md transition-all duration-200 ease-in-out;
+  }
+  
+  .sidebar-link {
+    @apply text-white opacity-80 flex items-center;
+  }
+  
+  .fa {
+    @apply mr-2 text-lg;
+  }
+  

@@ -1,0 +1,25 @@
+.app {
+    display: flex;
+    flex-direction: column; /* Stack components vertically */
+    height: 100vh;
+  }
+  @media (max-width: 768px) {
+    .app {
+      flex-direction: row; /* Arrange components side-by-side on smaller screens */
+    }
+  }
+  
+  body{
+    /* Add the gradient to the background of the body or any other element */
+  background: linear-gradient(to bottom, #001F3F, #0074CC, #00AEEF);
+  /* Set the background size to cover the entire viewport */
+  background-size: cover;
+  /* Set the background attachment to fixed if you want it to remain fixed when scrolling */
+  background-attachment: fixed;
+  /* Set other styles as needed */
+  color: #fff;
+    height: max-content;
+    
+  }
+  
+        

@@ -1,3 +1,68 @@
-.nav-custom{
-    background-color: #2339;
+/* ... styles as in the previous response ... */
+
+.sidebar.active {
+    transform: translateX(0); /* Slide in the sidebar */
+  }
+  
+  .sidebar.active .close-button {
+    opacity: 1; /* Show close button only when sidebar is active */
+  }
+  
+  .close-button {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    border: none;
+    background: none;
+    font-size: 24px;
+    opacity: 0; /* Initially hide close button */
+    transition: opacity 0.2s ease-in-out;
+  }
+  
+  /* Add your hover and animation styles here, targeting relevant classes */
+  .sidebar:hover{
+    
+    color: white;
+  }
+.sidebar{
+    background-color: #222;
+    color: white;
+    border-radius: 15px;
 }
+
+  .sidebar-toggle:hover {
+    /* Customize hover effects for sidebar and toggle button */
+    
+
+    color: #fff;
+  }
+  /* Navbarcustom.css */
+.container {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: space-between; /* Position toggle button correctly */
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+  }
+  
+  .sidebar-toggle {
+    color: inherit; /* Inherit color from navbar */
+    background: none; /* Remove default button styling */
+    border: none; /* Remove default button styling */
+    padding: 5px;
+    cursor: pointer;
+  }
+  
+  .content {
+    flex: 1; /* Occupy remaining space */
+    padding: 20px;
+  }
+  
+  /* Add hover and animation styles as needed */
+  
